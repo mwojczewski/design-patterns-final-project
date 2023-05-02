@@ -3,7 +3,7 @@ from ingredients.abstract.ingredient import Ingredient
 
 class Coffee(Ingredient):
 
-    def __init__(self, amount: float = 0.0) -> None:
+    def __init__(self, amount: float = 1.0) -> None:
         if not isinstance(amount, float):
             raise TypeError("Non float value")
         if amount < 1:
