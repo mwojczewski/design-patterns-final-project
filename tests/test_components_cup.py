@@ -72,7 +72,5 @@ def test_add_valid_ingredient():
 
 
 def test_add_invalid_ingredient():
-    cup = Cup(200)
-
     with pytest.raises(TypeError):
-        cup.add_ingredient(RoastedCoffee(200))
+        Cup(200).add_ingredient(RoastedCoffee(200))
