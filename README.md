@@ -8,7 +8,7 @@ For unit testing please install pytest module:
 `pip install pytest
 `
 
-and run it in root directory:
+and run following command from root directory:
 
 `python -m pytest
 `
