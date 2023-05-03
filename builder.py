@@ -15,8 +15,7 @@ class Builder:
             self.__recipe.add_base_component()
             self.__recipe.add_second_component()
             self.__recipe.add_top_component()
-            cup = self.__recipe.get_cup()
-            return cup
+            return self.__recipe.get_cup()
         except ValueError:
             print("An ValueError occurred!")
         except TypeError:
